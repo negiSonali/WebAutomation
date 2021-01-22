@@ -47,7 +47,7 @@ public class UdemyLogin {
 	@Then("user is navigated to the home page")
 	public void user_is_navigated_to_the_home_page() throws InterruptedException {
 		driver.findElement(By.linkText("My learning")).isDisplayed();
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 		driver.close();
 		driver.quit();
 	}
